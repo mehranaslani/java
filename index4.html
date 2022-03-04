@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clock{
+            background-color: blue;
+            width: 400px;
+            text-align: center;
+            font-size: 1em;
+            color: white;
+        }
+        .clock > span{
+            padding: 10px;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .clock > span > span{
+            background-color: red;
+            padding: 5px;
+            border-radius: 10px;
+            margin-right: 4px;
+        }
+        input{
+            padding: 15px;
+            margin: 20px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="date" name="endDate">
+        <div class="clock">
+            <span><span class="days">0</span>Days</span>
+            <span><span class="hours">0</span>Hours</span>
+            <span><span class="minute">0</span>Minute</span>
+            <span><span class="second">0</span>Second</span>
+        </div>
+    </div>
+</body>
+<script src="./javascript/main4.js"></script>
+</html>
